@@ -1,3 +1,4 @@
+<!-- LIBRARY SEARCH -->
 <form method="get" class="library-form open" action="https://alliance-warnerpacific.primo.exlibrisgroup.com/nde/search?" name="WPC Library Search" id="libsearch" enctype="application/x-www-form-urlencoded; charset=utf-8" onsubmit="return validateForm()">
 				  	
 						<input type="hidden" id="vid" name="vid" value="01ALLIANCE_WPC:WP"> <!--your view code for Primo, this is the code used in Alma for the primo view-->
@@ -10,3 +11,4 @@
 				  		<input class="searchfield dash-search-field search-box" title="libsearch_field" size="45" tabindex="1" name="query" type="text" value="" placeholder="SEARCH THE LIBRARY">
 				  		<button id="primobutton" class="dash-submit primo-button search-submit" tabindex="3" value="Search Primo" type="submit">Search</button>
 				  	</form>
+<!-- End LIBRARY SEARCH -->
